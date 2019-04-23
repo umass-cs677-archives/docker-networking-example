@@ -55,7 +55,7 @@ The output here show that our catalog server is running using a bridge network, 
 
 ![bridge](https://docs.docker.com/engine/tutorials/bridge1.png)
 
-Note that there is a NAT between the docker0 bridge abd host eth0. This makes the container IP address `172.17.0.2` only accessible from the host. **If you are using linux**, you can try to access the catalog container using curl or [httpie](https://httpie.org/):
+Note that there is a NAT between the docker0 bridge and host eth0. This makes the container IP address `172.17.0.2` only accessible from the host. **If you are using linux**, you can try to access the catalog container using curl or [httpie](https://httpie.org/):
 
 ```shell
 $ http get 172.17.0.2/query/1001
