@@ -8,4 +8,4 @@ RUN pip install flask requests
 
 EXPOSE 80
 
-ENTRYPOINT ["python", "front-end.py"]
+ENTRYPOINT ["python", "front_end.py"]
